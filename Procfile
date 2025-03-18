@@ -1,0 +1,1 @@
+web: java -jar build/libs/spring-boot-api-rest-railway-0.0.1-SNAPSHOT.jar

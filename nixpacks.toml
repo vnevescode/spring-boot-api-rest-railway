@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ['openjdk21']
+
+[start]
+cmd = './gradlew bootRun'

@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ['openjdk21']
-
-[phases.build]
-cmds = ['chmod +x ./gradlew', './gradlew build -x test']
-
-[start]
-cmd = './gradlew bootRun'
